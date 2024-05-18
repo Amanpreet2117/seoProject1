@@ -107,9 +107,9 @@ const contact = () => {
               </fieldset>
             </div>
           </div>
-          <div classNameName="contact-dec">
+          {/* <div classNameName="contact-dec">
             <img src={contactDecoration} alt="" />
-          </div>
+          </div> */}
         </Form>
       )}
     </Formik>
