@@ -5,28 +5,28 @@ const singleSlug = () => {
   return (
     <div>
 
-<img class="w-100 mb-3" src="https://api.time.com/wp-content/uploads/2020/07/never-trumpers-2020-election-01.jpg?quality=85&w=1201&h=676&crop=1" />
+<img className="w-100 mb-3" src="https://api.time.com/wp-content/uploads/2020/07/never-trumpers-2020-election-01.jpg?quality=85&w=1201&h=676&crop=1" />
   
-  <div class="container">
-    <div style="max-width: 700px;" class="text-secondary">
+  <div className="container">
+    <div style="max-width: 700px;" className="text-secondary">
     <div>
         <small>
-          <a href="#" class="text-primary">Election</a>, <a href="#" class="text-primary">Politics</a>
+          <a href="#" className="text-primary">Election</a>, <a href="#" className="text-primary">Politics</a>
       </small>
     </div>
-    <h1 class="font-weight-bold text-dark">Revenge of the Never Trumpers
+    <h1 className="font-weight-bold text-dark">Revenge of the Never Trumpers
 </h1>
       </div>
-    <div class="my-3 d-flex align-items-center justify-content-between">
-      <div class="d-flex align-items-center">
+    <div className="my-3 d-flex align-items-center justify-content-between">
+      <div className="d-flex align-items-center">
       <img src="https://avatars0.githubusercontent.com/u/39916324?s=460&u=602ca47fcce463981a2511a21148236f304ec934&v=4" style="width: 50px;"/>
-      <small class="ml-2">
-        <a href="#" class="text-primary d-block">Ahmad Sultani</a>
+      <small className="ml-2">
+        <a href="#" className="text-primary d-block">Ahmad Sultani</a>
         <span>Aug 18</span>
       </small>
     </div>
-      <div class="text-primary">
-         <a href="/#" class="mx-1">
+      <div className="text-primary">
+         <a href="/#" className="mx-1">
             <svg fill="currentColor" width="30px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule: evenodd; clip-rule: evenodd; stroke-linejoin: round; stroke-miterlimit: 2;">
                <path id="Twitter" d="M24,12c0,6.627 -5.373,12 -12,12c-6.627,0 -12,-5.373 -12,-12c0,-6.627
                   5.373,-12 12,-12c6.627,0 12,5.373 12,12Zm-6.465,-3.192c-0.379,0.168
@@ -44,7 +44,7 @@ const singleSlug = () => {
                   0.771,-0.67 1.054,-1.093Z"></path>
             </svg>
          </a>
-         <a href="/#" class="w-6 mx-1">
+         <a href="/#" className="w-6 mx-1">
             <svg fill="currentColor" width="30px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule: evenodd; clip-rule: evenodd; stroke-linejoin: round; stroke-miterlimit: 2;">
                <path id="Facebook" d="M24,12c0,6.627 -5.373,12 -12,12c-6.627,0 -12,-5.373 -12,-12c0,-6.627
                   5.373,-12 12,-12c6.627,0 12,5.373
@@ -53,7 +53,7 @@ const singleSlug = () => {
                   -2.103,2.102l0,0.97l-0.969,0l0,1.617l0.969,0l0,4.689l1.941,0l0,-4.689Z"></path>
             </svg>
          </a>
-         <a href="/#" class="w-6 mx-1">
+         <a href="/#" className="w-6 mx-1">
             <svg fill="currentColor" width="30px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule: evenodd; clip-rule: evenodd; stroke-linejoin: round; stroke-miterlimit: 2;">
                <path id="Shape" d="M7.3,0.9c1.5,-0.6 3.1,-0.9 4.7,-0.9c1.6,0 3.2,0.3 4.7,0.9c1.5,0.6 2.8,1.5
                   3.8,2.6c1,1.1 1.9,2.3 2.6,3.8c0.7,1.5 0.9,3 0.9,4.7c0,1.7 -0.3,3.2
@@ -73,36 +73,36 @@ const singleSlug = () => {
          </a>
       </div>
     </div>
-    <div class="row">
-      <div class="col-lg-8 p-4">
-        <div class="text-secondary">
-    <p class="my-2" style="line-height: 2;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-    <br>
-    <br>
+    <div className="row">
+      <div className="col-lg-8 p-4">
+        <div className="text-secondary">
+    <p className="my-2" style="line-height: 2;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    <br/>
+    <br/>
 
-    <h3 class="font-weight-bold text-dark">#1. What is Lorem Ipsum?</h3>
-    <p class="my-2" style="line-height: 2;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    <h3 className="font-weight-bold text-dark">#1. What is Lorem Ipsum?</h3>
+    <p className="my-2" style="line-height: 2;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
     
-    <br>    
+    <br/>    
     
-    <blockquote class="text-primary p-3 font-italic" style="border-left: 4px solid black; line-height: 2;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</blockquote>
+    <blockquote className="text-primary p-3 font-italic" style="border-left: 4px solid black; line-height: 2;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</blockquote>
     
-    <br>
+    <br/>
 
-    <p class="my-2" style="line-height: 2;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    <p className="my-2" style="line-height: 2;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
     
-    <div class="my-3">
+    <div className="my-3">
       <small>
-          <a href="#" class="text-primary">#election</a>, <a href="#" class="text-primary">#politics</a>, <a href="#" class="text-primary">#trump</a>, <a href="#" class="text-primary">#revenge</a>, <a href="#" class="text-primary">#2020</a>
+          <a href="#" className="text-primary">#election</a>, <a href="#" className="text-primary">#politics</a>, <a href="#" className="text-primary">#trump</a>, <a href="#" className="text-primary">#revenge</a>, <a href="#" className="text-primary">#2020</a>
       </small>
     </div>
     
   </div>
       </div>
-      <div class="col-lg-4 p-4 border-left">
-        <div class="border-bottom mb-3 pb-3 px-2">
-    <div class="d-flex align-items-center">
-      <svg height="30px" class="mr-2" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+      <div className="col-lg-4 p-4 border-left">
+        <div className="border-bottom mb-3 pb-3 px-2">
+    <div className="d-flex align-items-center">
+      <svg height="30px" className="mr-2" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 495 495" style="enable-background:new 0 0 495 495;" xml:space="preserve">
 <g>
 	<path d="M495,103.513V95.5c0-21.78-17.72-39.5-39.5-39.5h-416C17.72,56,0,73.72,0,95.5v303.997c0,0.003,0,0.005,0,0.008
@@ -116,15 +116,15 @@ const singleSlug = () => {
 		c13.509,0,24.5,10.99,24.5,24.5S117.009,184,103.5,184S79,173.01,79,159.5S89.991,135,103.5,135z"/>
 </g>
       </svg>
-      <a href="#" style="color: #9B5DE5; font-size: 20px;" class="text-capitalize font-weight-bold mb-0">Photography</a>
+      <a href="#" style="color: #9B5DE5; font-size: 20px;" className="text-capitalize font-weight-bold mb-0">Photography</a>
     </div>
   </div>
         
-        <div class="d-flex align-items-start mb-3">
-        <img class="img-fluid mr-3" style="width: 110px;" src="https://cdn.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_220,h_150/https://8am.af/wp-content/uploads/2020/05/Dawoodzai-220x150.jpg" alt="">
+        <div className="d-flex align-items-start mb-3">
+        <img className="img-fluid mr-3" style="width: 110px;" src="https://cdn.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_220,h_150/https://8am.af/wp-content/uploads/2020/05/Dawoodzai-220x150.jpg" alt="">
         <div>
-          <div class="d-flex align-items-center">
-            <svg height="10px" class="mr-1" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 300.988 300.988" style="enable-background:new 0 0 300.988 300.988;" xml:space="preserve">
+          <div className="d-flex align-items-center">
+            <svg height="10px" className="mr-1" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 300.988 300.988" style="enable-background:new 0 0 300.988 300.988;" xml:space="preserve">
             <g>
               <g>
                 <path d="M150.494,0.001C67.511,0.001,0,67.512,0,150.495s67.511,150.493,150.494,150.493s150.494-67.511,150.494-150.493
@@ -135,14 +135,14 @@ const singleSlug = () => {
             </g></svg>
             <small style="color: #9B5DE5;">6 min ago</small>
           </div>
-          <a href="#" class="mb-0 text-dark" style="font-weight: 600;"><small>Lorem, ipsum dolor sit amet consectetur elit.</small></a>
+          <a href="#" className="mb-0 text-dark" style="font-weight: 600;"><small>Lorem, ipsum dolor sit amet consectetur elit.</small></a>
         </div>
       </div>
-      <div class="d-flex align-items-start mb-3">
-        <img class="img-fluid mr-3" style="width: 110px;" src="https://cdn.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_220,h_150/https://8am.af/wp-content/uploads/2020/09/11111111111111-220x150.jpg" alt="">
+      <div className="d-flex align-items-start mb-3">
+        <img className="img-fluid mr-3" style="width: 110px;" src="https://cdn.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_220,h_150/https://8am.af/wp-content/uploads/2020/09/11111111111111-220x150.jpg" alt="">
         <div>
-          <div class="d-flex align-items-center">
-            <svg height="10px" class="mr-1" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 300.988 300.988" style="enable-background:new 0 0 300.988 300.988;" xml:space="preserve">
+          <div className="d-flex align-items-center">
+            <svg height="10px" className="mr-1" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 300.988 300.988" style="enable-background:new 0 0 300.988 300.988;" xml:space="preserve">
             <g>
               <g>
                 <path d="M150.494,0.001C67.511,0.001,0,67.512,0,150.495s67.511,150.493,150.494,150.493s150.494-67.511,150.494-150.493
@@ -153,14 +153,14 @@ const singleSlug = () => {
             </g></svg>
             <small style="color: #9B5DE5;">6 min ago</small>
           </div>
-          <a href="#" class="mb-0 text-dark" style="font-weight: 600;"><small>Lorem, ipsum dolor sit amet consectetur asdfghiogh elit.</small></a>
+          <a href="#" className="mb-0 text-dark" style="font-weight: 600;"><small>Lorem, ipsum dolor sit amet consectetur asdfghiogh elit.</small></a>
         </div>
       </div>
-      <div class="d-flex align-items-start mb-3">
-        <img class="img-fluid mr-3" style="width: 110px;" src="https://cdn.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_220,h_150/https://8am.af/wp-content/uploads/2020/07/flag-220x150.jpg" alt="">
+      <div className="d-flex align-items-start mb-3">
+        <img className="img-fluid mr-3" style="width: 110px;" src="https://cdn.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_220,h_150/https://8am.af/wp-content/uploads/2020/07/flag-220x150.jpg" alt="">
         <div>
-          <div class="d-flex align-items-center">
-            <svg height="10px" class="mr-1" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 300.988 300.988" style="enable-background:new 0 0 300.988 300.988;" xml:space="preserve">
+          <div className="d-flex align-items-center">
+            <svg height="10px" className="mr-1" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 300.988 300.988" style="enable-background:new 0 0 300.988 300.988;" xml:space="preserve">
             <g>
               <g>
                 <path d="M150.494,0.001C67.511,0.001,0,67.512,0,150.495s67.511,150.493,150.494,150.493s150.494-67.511,150.494-150.493
@@ -171,14 +171,14 @@ const singleSlug = () => {
             </g></svg>
             <small style="color: #9B5DE5;">6 min ago</small>
           </div>
-          <a href="#" class="mb-0 text-dark" style="font-weight: 600;"><small>Lorem, ipsum dolor sit amet consectetur asdfghiogh elit.</small></a>
+          <a href="#" className="mb-0 text-dark" style="font-weight: 600;"><small>Lorem, ipsum dolor sit amet consectetur asdfghiogh elit.</small></a>
         </div>
       </div>
-      <div class="d-flex align-items-start mb-3">
-        <img class="img-fluid mr-3" style="width: 110px;" src="https://cdn.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_220,h_150/https://8am.af/wp-content/uploads/2020/07/taliban-1-220x150.jpg" alt="">
+      <div className="d-flex align-items-start mb-3">
+        <img className="img-fluid mr-3" style="width: 110px;" src="https://cdn.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_220,h_150/https://8am.af/wp-content/uploads/2020/07/taliban-1-220x150.jpg" alt="">
         <div>
-          <div class="d-flex align-items-center">
-            <svg height="10px" class="mr-1" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 300.988 300.988" style="enable-background:new 0 0 300.988 300.988;" xml:space="preserve">
+          <div className="d-flex align-items-center">
+            <svg height="10px" className="mr-1" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 300.988 300.988" style="enable-background:new 0 0 300.988 300.988;" xml:space="preserve">
             <g>
               <g>
                 <path d="M150.494,0.001C67.511,0.001,0,67.512,0,150.495s67.511,150.493,150.494,150.493s150.494-67.511,150.494-150.493
@@ -189,14 +189,14 @@ const singleSlug = () => {
             </g></svg>
             <small style="color: #9B5DE5;">6 min ago</small>
           </div>
-          <a href="#" class="mb-0 text-dark" style="font-weight: 600;"><small>Lorem, ipsum dolor sit amet consectetur asdfghiogh elit.</small></a>
+          <a href="#" className="mb-0 text-dark" style="font-weight: 600;"><small>Lorem, ipsum dolor sit amet consectetur asdfghiogh elit.</small></a>
         </div>
       </div>
-      <div class="d-flex align-items-start">
-        <img class="img-fluid mr-3" style="width: 110px;" src="https://cdn.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_220,h_150/https://8am.af/wp-content/uploads/2020/05/Dawoodzai-220x150.jpg" alt="">
+      <div className="d-flex align-items-start">
+        <img className="img-fluid mr-3" style="width: 110px;" src="https://cdn.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_220,h_150/https://8am.af/wp-content/uploads/2020/05/Dawoodzai-220x150.jpg" alt="">
         <div>
-          <div class="d-flex align-items-center">
-            <svg height="10px" class="mr-1" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 300.988 300.988" style="enable-background:new 0 0 300.988 300.988;" xml:space="preserve">
+          <div className="d-flex align-items-center">
+            <svg height="10px" className="mr-1" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 300.988 300.988" style="enable-background:new 0 0 300.988 300.988;" xml:space="preserve">
             <g>
               <g>
                 <path d="M150.494,0.001C67.511,0.001,0,67.512,0,150.495s67.511,150.493,150.494,150.493s150.494-67.511,150.494-150.493
@@ -207,7 +207,7 @@ const singleSlug = () => {
             </g></svg>
             <small style="color: #9B5DE5;">6 min ago</small>
           </div>
-          <a href="#" class="mb-0 text-dark" style="font-weight: 600;"><small>Lorem, ipsum dolor sit amet consectetur elit.</small></a>
+          <a href="#" className="mb-0 text-dark" style="font-weight: 600;"><small>Lorem, ipsum dolor sit amet consectetur elit.</small></a>
         </div>
       </div>
       </div>

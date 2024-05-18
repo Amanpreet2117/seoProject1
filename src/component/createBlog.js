@@ -7,27 +7,27 @@ const createBlog = () => {
     <div>
       <div>
         <div>
-          <div id="contact" class="contact-us section">
-            <div class="container">
-              <div class="row">
+          <div id="contact" className="contact-us section">
+            <div className="container">
+              <div className="row">
                 <div
-                  class="col-lg-6 align-self-center wow fadeInLeft"
+                  className="col-lg-6 align-self-center wow fadeInLeft"
                   data-wow-duration="0.5s"
                   data-wow-delay="0.25s"
                 >
-                  <div class="section-heading">
+                  <div className="section-heading">
                     <h2>Add a new blog post</h2>
                     <p>
                       Welcome! Please fill out the form below to add a new blog
                       post.
                     </p>
-                    {/* <!-- <div class="phone-info">
-                                <h4>For any enquiry, Call Us: <span><i class="fa fa-phone"></i> <a href="#">010-020-0340</a></span></h4>
+                    {/* <!-- <div className="phone-info">
+                                <h4>For any enquiry, Call Us: <span><i className="fa fa-phone"></i> <a href="#">010-020-0340</a></span></h4>
                             </div> --> */}
                   </div>
                 </div>
                 <div
-                  class="col-lg-6 wow fadeInRight"
+                  className="col-lg-6 wow fadeInRight"
                   data-wow-duration="0.5s"
                   data-wow-delay="0.25s"
                 >
@@ -54,50 +54,50 @@ const createBlog = () => {
     >
       {formik => (
         <Form id="contact">
-          <div className="row">
-            <div className="col-lg-6">
+          <div classNameName="row">
+            <div classNameName="col-lg-6">
               <label>
                 <b>Blog Title</b>
               </label>
               <fieldset>
                 <Field type="text" name="title" id="title" placeholder="Enter blog title" autoComplete="on" />
-                <ErrorMessage name="title" component="div" className="error-message" />
+                <ErrorMessage name="title" component="div" classNameName="error-message" />
               </fieldset>
             </div>
-            <div className="col-lg-6">
+            <div classNameName="col-lg-6">
               <label>
                 <b>Author</b>
               </label>
               <fieldset>
                 <Field type="text" name="author" id="author" placeholder="Enter author name" autoComplete="on" />
-                <ErrorMessage name="author" component="div" className="error-message" />
+                <ErrorMessage name="author" component="div" classNameName="error-message" />
               </fieldset>
             </div>
-            <div className="col-lg-12">
+            <div classNameName="col-lg-12">
               <label>
                 <b>Content</b>
               </label>
               <fieldset>
                 <Field as="textarea" name="content" id="content" placeholder="Enter blog content" />
-                <ErrorMessage name="content" component="div" className="error-message" />
+                <ErrorMessage name="content" component="div" classNameName="error-message" />
               </fieldset>
             </div>
             <div>
               <label>
                 <b>Add image</b>
-                <input type="file" className="hide-element" onChange={(event) => formik.setFieldValue("image", event.currentTarget.files[0])} />
+                <input type="file" classNameName="hide-element" onChange={(event) => formik.setFieldValue("image", event.currentTarget.files[0])} />
               </label>
             </div>
-            <div className="col-lg-12">
+            <div classNameName="col-lg-12">
               <label>
                 <b></b>
               </label>
               <fieldset>
-                <button type="submit" id="form-submit" className="main-button" disabled={!formik.isValid}>Add Blog</button>
+                <button type="submit" id="form-submit" classNameName="main-button" disabled={!formik.isValid}>Add Blog</button>
               </fieldset>
             </div>
           </div>
-          <div className="contact-dec">
+          <div classNameName="contact-dec">
             {/* <!-- <Image src={contactDecoration} alt=""/> --> */}
           </div>
         </Form>

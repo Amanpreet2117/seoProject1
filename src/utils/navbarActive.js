@@ -16,13 +16,13 @@ const NavbarActive = () => {
 
   return (
     <div>
-      <ul class="nav">
+      <ul className="nav">
         {path.map((res) => {
           return (
             <>
-              <li class="scroll-to-section">
+              <li className="scroll-to-section">
                 {res.path == pathname ? (
-                  <a href={res.path} class="active">
+                  <a href={res.path} className="active">
                     {res.name}
                   </a>
                 ) : (
@@ -33,8 +33,8 @@ const NavbarActive = () => {
           );
         })}
         
-        <li class="scroll-to-section">
-          <div class="main-red-button">
+        <li className="scroll-to-section">
+          <div className="main-red-button">
             <a href="contact">Contact Now</a>
           </div>
         </li>
