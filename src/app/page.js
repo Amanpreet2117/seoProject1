@@ -324,11 +324,11 @@ export default function Home() {
     </div>
   </footer> */}
     </>
-    // <main classNameName={styles.main}>
-    //   <div classNameName={styles.description}>
+    // <main className={styles.main}>
+    //   <div className={styles.description}>
     //     <p>
     //       Get started by editing&nbsp;
-    //       <code classNameName={styles.code}>src/app/page.js</code>
+    //       <code className={styles.code}>src/app/page.js</code>
     //     </p>
     //     <div>
     //       <a
@@ -340,7 +340,7 @@ export default function Home() {
     //         <Image
     //           src="/vercel.svg"
     //           alt="Vercel Logo"
-    //           classNameName={styles.vercelLogo}
+    //           className={styles.vercelLogo}
     //           width={100}
     //           height={24}
     //           priority
@@ -349,9 +349,9 @@ export default function Home() {
     //     </div>
     //   </div>
 
-    //   <div classNameName={styles.center}>
+    //   <div className={styles.center}>
     //     <Image
-    //       classNameName={styles.logo}
+    //       className={styles.logo}
     //       src="/next.svg"
     //       alt="Next.js Logo"
     //       width={180}
@@ -360,10 +360,10 @@ export default function Home() {
     //     />
     //   </div>
 
-    //   <div classNameName={styles.grid}>
+    //   <div className={styles.grid}>
     //     <a
     //       href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-    //       classNameName={styles.card}
+    //       className={styles.card}
     //       target="_blank"
     //       rel="noopener noreferrer"
     //     >
@@ -375,7 +375,7 @@ export default function Home() {
 
     //     <a
     //       href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-    //       classNameName={styles.card}
+    //       className={styles.card}
     //       target="_blank"
     //       rel="noopener noreferrer"
     //     >
@@ -387,7 +387,7 @@ export default function Home() {
 
     //     <a
     //       href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-    //       classNameName={styles.card}
+    //       className={styles.card}
     //       target="_blank"
     //       rel="noopener noreferrer"
     //     >
@@ -399,7 +399,7 @@ export default function Home() {
 
     //     <a
     //       href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-    //       classNameName={styles.card}
+    //       className={styles.card}
     //       target="_blank"
     //       rel="noopener noreferrer"
     //     >

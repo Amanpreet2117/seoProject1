@@ -41,17 +41,9 @@ const contact = () => {
       })}
       onSubmit={async(values, { resetForm }) => {
         // Handle form submission here
-        console.log("formik values",values);
-        let data={
-          fname:values.name,
-          lname:values.surname,
-          email:values.email,
-          message:values.message
-        }
-        debugger
         try {
           // setSubmitting(true)
-          const result = await postData('/user/contact', data);
+          const result = await postData('/user/contact', values);
 
           console.log("result",result)
           if(result.data.success){
@@ -71,43 +63,43 @@ const contact = () => {
     >
       {formik => (
         <Form id="contact">
-          <div classNameName="row">
-            <div classNameName="col-lg-6">
+          <div className="row">
+            <div className="col-lg-6">
             <label><b>Name</b></label>
               <fieldset>
                 <Field type="text" name="name" id="name" placeholder="Name" autoComplete="on" />
-                <ErrorMessage name="name" component="div" classNameName="error-message" />
+                <ErrorMessage name="name" component="div" className="error-message" />
               </fieldset>
             </div>
-            <div classNameName="col-lg-6">
+            <div className="col-lg-6">
             <label><b>Surname</b></label>
               <fieldset>
                 <Field type="text" name="surname" id="surname" placeholder="Surname" autoComplete="on" />
-                <ErrorMessage name="surname" component="div" classNameName="error-message" />
+                <ErrorMessage name="surname" component="div" className="error-message" />
               </fieldset>
             </div>
-            <div classNameName="col-lg-12">
+            <div className="col-lg-12">
             <label><b>Email</b></label>
               <fieldset>
                 <Field type="email" name="email" id="email" placeholder="Your Email" autoComplete="on" />
-                <ErrorMessage name="email" component="div" classNameName="error-message" />
+                <ErrorMessage name="email" component="div" className="error-message" />
               </fieldset>
             </div>
-            <div classNameName="col-lg-12">
+            <div className="col-lg-12">
             <label><b>Message</b></label>
               <fieldset>
                 <Field as="textarea" name="message" id="message" placeholder="Message" />
-                <ErrorMessage name="message" component="div" classNameName="error-message" />
+                <ErrorMessage name="message" component="div" className="error-message" />
               </fieldset>
             </div>
-            <div classNameName="col-lg-12">
+            <div className="col-lg-12">
             {/* <label><b>Password</b></label> */}
               <fieldset>
-                <button type="submit" id="form-submit" classNameName="main-button" disabled={!formik.isValid}>Send Message</button>
+                <button type="submit" id="form-submit" className="main-button" disabled={!formik.isValid}>Send Message</button>
               </fieldset>
             </div>
           </div>
-          {/* <div classNameName="contact-dec">
+          {/* <div className="contact-dec">
             <img src={contactDecoration} alt="" />
           </div> */}
         </Form>

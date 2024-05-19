@@ -3,7 +3,7 @@ import Cookies from 'js-cookie';
 
 
 // export const baseURL = 'https://usinside.com/backend/api'
- export const baseURL = "http://localhost:4000"
+ export const baseURL = "http://localhost:4000/api"
 
 const instance = axios.create({
   baseURL: baseURL
