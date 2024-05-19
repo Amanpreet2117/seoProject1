@@ -4,7 +4,7 @@ import Cookies from 'js-cookie';
 
 export const baseURL = 'https://seobackend.vercel.app/api'
 
- // export const baseURL = "http://localhost:4000/api"
+ // export const baseURL =  "http://localhost:4000/api"
 
 const instance = axios.create({
   baseURL: baseURL
