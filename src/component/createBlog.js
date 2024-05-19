@@ -67,7 +67,7 @@ const createBlog = () => {
           }
     
           // Send the formData object
-          const result = await axios.post('http://localhost:4000/api/blog/add',values, {
+          const result = await axios.post('https://seobackend.vercel.app/api/blog/add',values, {
             // headers: {
             //   'Content-Type': 'multipart/form-data',
             // },
